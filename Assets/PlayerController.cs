@@ -16,7 +16,11 @@ public class PlayerController : MonoBehaviour
     public int Bottom = 4;
     public int Forward = 5;
     public int Backwards = 6;
-    
+
+     
+    public LayerMask obstacleMask;
+
+    private bool b = true;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -26,6 +30,57 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+         //Vector2 direction = transform.up;
+         
+         // Draw ray in Scene view
+         //
+        
+         // Do the raycast
+         b = true;
+         while (b)
+         {
+             float rayLength = targetPos.y - transform.position.y;
+             float rayLengthR = targetPos.x - transform.position.x;
+             //Debug.DrawRay(transform.position, transform.up * rayLength, Color.green);
+             RaycastHit2D hitUp = Physics2D.Raycast(transform.position, transform.up, rayLength, obstacleMask);
+             RaycastHit2D hitRight = Physics2D.Raycast(transform.position, transform.right, rayLengthR, obstacleMask);
+             if (hitUp.collider != null && hitUp.collider.gameObject != gameObject)
+             {
+                 if (rayLength > 0)
+                 {
+                     targetPos.y -= gridSize;
+                 }
+                 else if(rayLength < 0)
+                 {
+                     targetPos.y += gridSize;
+                 }
+                 else
+                 {
+                     b = false;
+                 }
+             }
+             else if (hitRight.collider != null && hitRight.collider.gameObject != gameObject)
+             {
+                 if (rayLengthR > 0)
+                 {
+                     targetPos.x -= gridSize;
+                 }
+                 else if(rayLengthR < 0)
+                 {
+                     targetPos.x += gridSize;
+                 }
+                 else
+                 {
+                     b = false;
+                 }
+             }
+             else
+             {
+                 b = false;
+             }
+         }
+         
+         
         if (Keyboard.current.wKey.wasPressedThisFrame)
         {
             targetPos.y += gridSize;
