@@ -15,6 +15,8 @@ public class fire : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (!gameObject.activeSelf) return;
+        
         if (bd == 'U')
         {
             transform.localPosition = new Vector3(Up.x,Up.y,0);

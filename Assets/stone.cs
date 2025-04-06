@@ -9,9 +9,12 @@ public class stone : MonoBehaviour
         rb2d.AddForce(transform.up * 30 ,ForceMode2D.Impulse);
     }
 
+    [SerializeField] private float destroyTimer = 2f;
     // Update is called once per frame
     void Update()
     {
-        
+        destroyTimer -= Time.deltaTime;
+        if(destroyTimer<0)
+            Destroy(gameObject);
     }
 }
