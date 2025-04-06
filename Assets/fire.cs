@@ -42,4 +42,12 @@ public class fire : MonoBehaviour
         yield return new WaitForSeconds(0.2f);
         gameObject.SetActive(false);
     }
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.tag.Equals("Enemy"))
+        {
+            enemyManger em = other.gameObject.GetComponent<enemyManger>();
+            em.health -= 10;
+        }
+    }
 }

@@ -14,4 +14,12 @@ public class stone : MonoBehaviour
     {
         
     }
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.tag.Equals("Enemy"))
+        {
+            enemyManger em = other.gameObject.GetComponent<enemyManger>();
+            em.health -= 5;
+        }
+    }
 }

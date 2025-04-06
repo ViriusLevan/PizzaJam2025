@@ -1,7 +1,10 @@
 using System;
+using System.Collections;
+using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.InputSystem.Android;
 using Random = System.Random;
 
 enum Ability 
@@ -9,8 +12,7 @@ enum Ability
     Clone ,
     Card_Summon,
     Fire_Line,
-    
-    Shadow_Warp ,
+    Shadow_Warp,
     Dash,
     Life_Drain,
     Stone_Shurricane ,
@@ -31,12 +33,12 @@ public class PlayerController : MonoBehaviour
     [SerializeField] public float gridSize;
 
     //[SerializeField] private Rigidbody2D rb2d;
-    Ability Left = Ability.Clone; // Faces
+    Ability Left = Ability.KnockBack; // Faces
     Ability Right = Ability.Stone_Shurricane;
-    Ability Top = Ability.Dash;
-    Ability Bottom = Ability.Empty;
-    Ability Forward = Ability.Fire_Line;
-    Ability Backwards = Ability.Shadow_Warp;
+    Ability Top = Ability.KnockBack;
+    Ability Bottom = Ability.KnockBack;
+    Ability Forward = Ability.KnockBack;
+    Ability Backwards = Ability.Fire_Line;
 
 
     public LayerMask obstacleMask;
@@ -45,6 +47,10 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private GameObject fireLine, stone;
 
     public bool canClone = true;
+
+    public float health = 100f;
+    [SerializeField] private Collider2D c;
+    [SerializeField] public SpriteRenderer sr;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -116,6 +122,7 @@ public class PlayerController : MonoBehaviour
             Forward = t;
             Bottom = f;
             Backwards = bb;
+            UseAblity(Bottom, 'U');
         }
         else if (Keyboard.current.sKey.wasPressedThisFrame)
         {
@@ -128,6 +135,7 @@ public class PlayerController : MonoBehaviour
             Forward = bb;
             Bottom = b;
             Backwards = t;
+            UseAblity(Bottom, 'D');
         }
         else if (Keyboard.current.aKey.wasPressedThisFrame)
         {
@@ -141,6 +149,7 @@ public class PlayerController : MonoBehaviour
             Right = b;
             Bottom = l;
             Left = t;
+            UseAblity(Bottom, 'L');
         }
         else if (Keyboard.current.dKey.wasPressedThisFrame)
         {
@@ -154,6 +163,7 @@ public class PlayerController : MonoBehaviour
             Right = t;
             Bottom = r;
             Left = b;
+            UseAblity(Bottom, 'R');
         }
     }
 
@@ -171,11 +181,11 @@ public class PlayerController : MonoBehaviour
                 transform.position = new Vector2(transform.position.x, targetPos.y);
                 if (diff > 0)
                 {
-                    UseAblity(Bottom, 'U');
+                    // UseAblity(Bottom, 'U');
                 }
                 else
                 {
-                    UseAblity(Bottom, 'D');
+                    // UseAblity(Bottom, 'D');
                 }
 
             }
@@ -189,11 +199,11 @@ public class PlayerController : MonoBehaviour
                 transform.position = new Vector2(targetPos.x, transform.position.y);
                 if (diff > 0)
                 {
-                    UseAblity(Bottom, 'R');
+                    // UseAblity(Bottom, 'R');
                 }
                 else
                 {
-                    UseAblity(Bottom, 'L');
+                    // UseAblity(Bottom, 'L');
 
                 }
 
@@ -203,7 +213,10 @@ public class PlayerController : MonoBehaviour
 
        
 
-        void UseAblity(Ability a, char md)
+        
+
+    }
+    void UseAblity(Ability a, char md)
         {
             switch (a)
             {
@@ -226,7 +239,7 @@ public class PlayerController : MonoBehaviour
                     {
                         targetPos.x += gridSize * (1 + 1);
                     }
-
+                    Debug.Log("Dash");
                     break;
                 case Ability.Fire_Line:
                     fireLine.SetActive(true);
@@ -257,8 +270,46 @@ public class PlayerController : MonoBehaviour
                     }
 
                     break;
+                case Ability.KnockBack:
+                    Debug.Log("kb");
+                    GameObject[] e = GameObject.FindGameObjectsWithTag("Enemy");
+                    
+                    foreach (GameObject g in e)
+                    {
+                        if (Vector3.Distance(transform.position, g.transform.position) < 4)
+                        {
+                            g.GetComponent<enemyManger>().kb = true;
+                        }
+                    }
+                    break;
             }
         }
 
+    private void OnCollisionEnter2D(Collision2D other)
+    {
+        
+        if (other.gameObject.tag.Equals("Enemy"))
+        {
+            Debug.Log(other.gameObject.name);
+            enemyManger em = other.gameObject.GetComponent<enemyManger>();
+            if (!em.isAttacking)
+            {
+                em.health -= 10;
+            }
+            else
+            {
+                health -= em.dmg;
+                sr.color = Color.red;
+                StartCoroutine(dmg());
+            }
+        }
+    }
+
+    IEnumerator dmg()
+    {
+        c.enabled = false;
+        yield return new WaitForSeconds(1f);
+        c.enabled = true;
+        sr.color = Color.white;
     }
 }
