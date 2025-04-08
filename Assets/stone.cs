@@ -19,7 +19,7 @@ public class stone : MonoBehaviour
         if (other.gameObject.tag.Equals("Enemy"))
         {
             enemyManger em = other.gameObject.GetComponent<enemyManger>();
-            em.health -= 5;
+            em.damage.Invoke(5f);
         }
     }
 }

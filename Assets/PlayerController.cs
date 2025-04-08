@@ -33,24 +33,25 @@ public class PlayerController : MonoBehaviour
     [SerializeField] public float gridSize;
 
     //[SerializeField] private Rigidbody2D rb2d;
-    Ability Left = Ability.KnockBack; // Faces
+    Ability Left = Ability.Toxic_Waste; // Faces
     Ability Right = Ability.Stone_Shurricane;
-    Ability Top = Ability.KnockBack;
-    Ability Bottom = Ability.KnockBack;
-    Ability Forward = Ability.KnockBack;
+    Ability Top = Ability.Homing_Missile;
+    Ability Bottom = Ability.Homing_Missile;
+    Ability Forward = Ability.Homing_Missile;
     Ability Backwards = Ability.Fire_Line;
 
 
     public LayerMask obstacleMask;
 
     private bool b = true;
-    [SerializeField] private GameObject fireLine, stone;
+    [SerializeField] private GameObject fireLine, stone, misle;
 
     public bool canClone = true;
 
     public float health = 100f;
     [SerializeField] private Collider2D c;
     [SerializeField] public SpriteRenderer sr;
+    
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -271,7 +272,6 @@ public class PlayerController : MonoBehaviour
 
                     break;
                 case Ability.KnockBack:
-                    Debug.Log("kb");
                     GameObject[] e = GameObject.FindGameObjectsWithTag("Enemy");
                     
                     foreach (GameObject g in e)
@@ -281,6 +281,40 @@ public class PlayerController : MonoBehaviour
                             g.GetComponent<enemyManger>().kb = true;
                         }
                     }
+                    break;
+                case Ability.Toxic_Waste:
+                    Debug.Log("Tw");
+                    GameObject[] e2 = GameObject.FindGameObjectsWithTag("Enemy");
+                    
+                    foreach (GameObject g in e2)
+                    {
+                        if (Vector3.Distance(transform.position, g.transform.position) < 4)
+                        {
+                            g.GetComponent<enemyManger>().p = 1;
+                        }
+                    }
+                    break;
+                case Ability.Homing_Missile:
+                    GameObject[] e3 = GameObject.FindGameObjectsWithTag("Enemy");
+                    e3 = Shuffle(e3);
+                    GameObject target = null;
+                    foreach (GameObject g in e3)
+                    {
+                        if (Vector3.Distance(transform.position, g.transform.position) < 12)
+                        {
+                            target = g;
+                            break;
+                            
+                        }
+                    }
+
+                    if (!target.Equals(null))
+                    {
+                        GameObject m = Instantiate(misle);
+                        m.GetComponent<missile>().target = target;
+                        m.SetActive(true);
+                    }
+
                     break;
             }
         }
@@ -294,7 +328,7 @@ public class PlayerController : MonoBehaviour
             enemyManger em = other.gameObject.GetComponent<enemyManger>();
             if (!em.isAttacking)
             {
-                em.health -= 10;
+                em.damage.Invoke(10f);
             }
             else
             {
@@ -304,7 +338,18 @@ public class PlayerController : MonoBehaviour
             }
         }
     }
+    
+    GameObject[] Shuffle(GameObject[] list)
+    {
+        int count = list.Length;
+        for (int i = 0; i < count; i++)
+        {
+            int randIndex = UnityEngine.Random.Range(i, count); // UnityEngine.Random
+            (list[i], list[randIndex]) = (list[randIndex], list[i]);
+        }
 
+        return list;
+    }
     IEnumerator dmg()
     {
         c.enabled = false;

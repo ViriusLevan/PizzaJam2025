@@ -47,7 +47,7 @@ public class fire : MonoBehaviour
         if (other.gameObject.tag.Equals("Enemy"))
         {
             enemyManger em = other.gameObject.GetComponent<enemyManger>();
-            em.health -= 10;
+            em.damage.Invoke(10f);
         }
     }
 }
