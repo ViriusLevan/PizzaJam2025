@@ -220,42 +220,118 @@ public class ProceduralGenerationManager : MonoBehaviour
 
     [SerializeField] private Tilemap corridorTMap;
     
+    // private void ConnectRooms(BSPNode node)
+    // {
+    //     if (node.left != null && node.right != null)
+    //     {
+    //         Vector2Int? leftCenter = GetRoomCenter(node.left);
+    //         Vector2Int? rightCenter = GetRoomCenter(node.right);
+    //
+    //         Tilemap leftTilemap = GetLeafTilemap(node.left);
+    //         Tilemap rightTilemap = GetLeafTilemap(node.right);
+    //
+    //         if (leftCenter!=null && rightCenter!=null)
+    //         {
+    //             // RectInt leftRect = (RectInt)node.left.room;
+    //             // RectInt rightRect = (RectInt)node.right.room;
+    //             // Tilemap leftTilemap = instancedPrefabs[leftRect].GetComponent<Tilemap>();
+    //             // Tilemap rightTilemap = instancedPrefabs[rightRect].GetComponent<Tilemap>();
+    //             
+    //             
+    //             //TODO use anchors here?
+    //             CreateCorridor(leftCenter.Value, rightCenter.Value
+    //                 ,  leftTilemap
+    //                 , rightTilemap);
+    //         }
+    //
+    //         // Recursively connect deeper
+    //         ConnectRooms(node.left);
+    //         ConnectRooms(node.right);
+    //     }
+    // }
+    
+    private BSPNode GetLeafWithRoom(BSPNode node)
+    {
+        if (node == null) return null;
+
+        if (node.IsLeaf && node.room != null)
+            return node;
+
+        BSPNode leftLeaf = GetLeafWithRoom(node.left);
+        if (leftLeaf != null) return leftLeaf;
+
+        BSPNode rightLeaf = GetLeafWithRoom(node.right);
+        if (rightLeaf != null) return rightLeaf;
+
+        return null;
+    }
+
+    
     private void ConnectRooms(BSPNode node)
     {
         if (node.left != null && node.right != null)
         {
-            Vector2Int? leftCenter = GetRoomCenter(node.left);
-            Vector2Int? rightCenter = GetRoomCenter(node.right);
+            BSPNode nodeA = GetLeafWithRoom(node.left);
+            BSPNode nodeB = GetLeafWithRoom(node.right);
 
-            Tilemap leftTilemap = GetLeafTilemap(node.left);
-            Tilemap rightTilemap = GetLeafTilemap(node.right);
+            if (nodeA == null || nodeB == null) return;
 
-            if (leftCenter!=null && rightCenter!=null)
+            Vector2Int centerA = nodeA.roomCenter.Value;
+            Vector2Int centerB = nodeB.roomCenter.Value;
+
+            Transform doorA = null, doorB = null;
+
+            // Decide direction based on center positions
+            if (Mathf.Abs(centerA.x - centerB.x) > Mathf.Abs(centerA.y - centerB.y))
             {
-                // RectInt leftRect = (RectInt)node.left.room;
-                // RectInt rightRect = (RectInt)node.right.room;
-                // Tilemap leftTilemap = instancedPrefabs[leftRect].GetComponent<Tilemap>();
-                // Tilemap rightTilemap = instancedPrefabs[rightRect].GetComponent<Tilemap>();
-                
-                
-                //TODO use anchors here?
-                CreateCorridor(leftCenter.Value, rightCenter.Value
-                    ,  leftTilemap
-                    , rightTilemap
-                    , corridorTMap);
+                // Horizontal connection
+                if (centerA.x < centerB.x)
+                {
+                    doorA = nodeA.roomData.leftAnchor;
+                    doorB = nodeB.roomData.rightAnchor;
+                }
+                else
+                {
+                    doorA = nodeA.roomData.rightAnchor;
+                    doorB = nodeB.roomData.leftAnchor;
+                }
+            }
+            else
+            {
+                // Vertical connection
+                if (centerA.y < centerB.y)
+                {
+                    doorA = nodeA.roomData.upAnchor;
+                    doorB = nodeB.roomData.downAnchor;
+                }
+                else
+                {
+                    doorA = nodeA.roomData.downAnchor;
+                    doorB = nodeB.roomData.upAnchor;
+                }
             }
 
-            // Recursively connect deeper
+            if (doorA != null && doorB != null)
+            {
+                // Vector3 tempA = nodeA.tilemap.LocalToWorld(doorA.position);
+                // Vector3 tempB = nodeB.tilemap.LocalToWorld(doorB.position);
+                
+                Vector3Int tilePosA = Vector3Int.RoundToInt(doorA.position);
+                Vector3Int tilePosB = Vector3Int.RoundToInt(doorB.position);
+                Debug.DrawLine(doorA.position, doorB.position, Color.red, 100f);
+                CreateCorridor(tilePosA, tilePosB, nodeA.tilemap, nodeB.tilemap);
+            }
+
+            // Recurse
             ConnectRooms(node.left);
             ConnectRooms(node.right);
         }
     }
-    
-    
 
+    [SerializeField] private Tilemap corridorTilemap;
     [SerializeField] private TileBase corridorTile;
     
-    private void CreateCorridor(Vector2Int start, Vector2Int end, Tilemap startRoomTilemap, Tilemap endRoomTilemap, Tilemap tilemap)
+    private void CreateCorridor(Vector3Int start, Vector3Int end, Tilemap startRoomTilemap, Tilemap endRoomTilemap)
     {
         // Randomize direction (horizontal-first or vertical-first)
         bool horizontalFirst = Random.value > 0.5f;
@@ -268,7 +344,7 @@ public class ProceduralGenerationManager : MonoBehaviour
             for (int x = Mathf.Min(start.x, end.x); x <= Mathf.Max(start.x, end.x); x++)
             {
                 Vector3Int currentPos = new Vector3Int(x, start.y, 0);
-                tilemap.SetTile(currentPos, corridorTile);
+                corridorTilemap.SetTile(currentPos, corridorTile);
                 
                 Vector3Int localPos = startRoomTilemap.WorldToCell(currentPos);
                 if (startRoomTilemap.HasTile(localPos))
@@ -282,7 +358,7 @@ public class ProceduralGenerationManager : MonoBehaviour
             for (int y = Mathf.Min(start.y, end.y); y <= Mathf.Max(start.y, end.y); y++)
             {
                 Vector3Int currentPos = new Vector3Int(end.x, y, 0);
-                tilemap.SetTile(currentPos, corridorTile);
+                corridorTilemap.SetTile(currentPos, corridorTile);
                 
                 Vector3Int localPos = endRoomTilemap.WorldToCell(currentPos);
                 if (endRoomTilemap.HasTile(localPos))
@@ -298,7 +374,7 @@ public class ProceduralGenerationManager : MonoBehaviour
             for (int y = Mathf.Min(start.y, end.y); y <= Mathf.Max(start.y, end.y); y++)
             {
                 Vector3Int currentPos = new Vector3Int(start.x, y, 0);
-                tilemap.SetTile(currentPos, corridorTile);
+                corridorTilemap.SetTile(currentPos, corridorTile);
                 
                 Vector3Int localPos = startRoomTilemap.WorldToCell(currentPos);
                 if (startRoomTilemap.HasTile(localPos))
@@ -312,7 +388,7 @@ public class ProceduralGenerationManager : MonoBehaviour
             for (int x = Mathf.Min(start.x, end.x); x <= Mathf.Max(start.x, end.x); x++)
             {
                 Vector3Int currentPos = new Vector3Int(x, end.y, 0);
-                tilemap.SetTile(currentPos, corridorTile);
+                corridorTilemap.SetTile(currentPos, corridorTile);
                 
                 Vector3Int localPos = endRoomTilemap.WorldToCell(currentPos);
                 if (endRoomTilemap.HasTile(localPos))
@@ -323,6 +399,29 @@ public class ProceduralGenerationManager : MonoBehaviour
             }
         }
     }
+    
+    // void CreateCorridor(Vector3Int from, Vector3Int to)
+    // {
+    //     bool horizontalFirst = Random.value > 0.5f;
+    //
+    //     if (horizontalFirst)
+    //     {
+    //         for (int x = Mathf.Min(from.x, to.x); x <= Mathf.Max(from.x, to.x); x++)
+    //             corridorTilemap.SetTile(new Vector3Int(x, from.y, 0), corridorTile);
+    //
+    //         for (int y = Mathf.Min(from.y, to.y); y <= Mathf.Max(from.y, to.y); y++)
+    //             corridorTilemap.SetTile(new Vector3Int(to.x, y, 0), corridorTile);
+    //     }
+    //     else
+    //     {
+    //         for (int y = Mathf.Min(from.y, to.y); y <= Mathf.Max(from.y, to.y); y++)
+    //             corridorTilemap.SetTile(new Vector3Int(from.x, y, 0), corridorTile);
+    //
+    //         for (int x = Mathf.Min(from.x, to.x); x <= Mathf.Max(from.x, to.x); x++)
+    //             corridorTilemap.SetTile(new Vector3Int(x, to.y, 0), corridorTile);
+    //     }
+    // }
+
     
     
 

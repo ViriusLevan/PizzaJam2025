@@ -1616,14 +1616,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _tilemap: {fileID: 3350795462486726227}
-  upAnchor: {fileID: 3068942978910148487}
-  downAnchor: {fileID: 2969789984123359979}
-  leftAnchor: {fileID: 5546646333626742536}
-  rightAnchor: {fileID: 3464655656636748883}
-  upPoint: {x: 0, y: 0, z: 0}
-  downPoint: {x: 0, y: 0, z: 0}
-  leftPoint: {x: 0, y: 0, z: 0}
-  rightPoint: {x: 0, y: 0, z: 0}
+  upAnchor: {fileID: 308539559385056249}
+  downAnchor: {fileID: 7550663182526065409}
+  leftAnchor: {fileID: 4485551317751684166}
+  rightAnchor: {fileID: 4167437471619968034}
 --- !u!1 &2969789984123359979
 GameObject:
   m_ObjectHideFlags: 0
@@ -1634,7 +1630,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7550663182526065409}
   m_Layer: 0
-  m_Name: GameObject (1)
+  m_Name: Down
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1665,7 +1661,7 @@ GameObject:
   m_Component:
   - component: {fileID: 308539559385056249}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: Up
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1680,7 +1676,7 @@ Transform:
   m_GameObject: {fileID: 3068942978910148487}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 4, z: 0}
+  m_LocalPosition: {x: 0, y: 3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1696,7 +1692,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4167437471619968034}
   m_Layer: 0
-  m_Name: GameObject (3)
+  m_Name: Left
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1711,7 +1707,7 @@ Transform:
   m_GameObject: {fileID: 3464655656636748883}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7, y: 0, z: 0}
+  m_LocalPosition: {x: -8, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1727,7 +1723,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4485551317751684166}
   m_Layer: 0
-  m_Name: GameObject (2)
+  m_Name: Right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

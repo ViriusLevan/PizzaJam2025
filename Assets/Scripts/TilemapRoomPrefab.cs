@@ -4,9 +4,9 @@ using UnityEngine.Tilemaps;
 public class TilemapRoomPrefab : MonoBehaviour
 {
     [SerializeField] private Tilemap _tilemap;
-    [SerializeField] private GameObject upAnchor, downAnchor, leftAnchor, rightAnchor;
+    [SerializeField] public Transform upAnchor, downAnchor, leftAnchor, rightAnchor;
 
-    [SerializeField] private Vector3Int upPoint, downPoint, leftPoint, rightPoint;
+    //[SerializeField] public Vector3Int upPoint, downPoint, leftPoint, rightPoint;
     
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -31,6 +31,8 @@ public class TilemapRoomPrefab : MonoBehaviour
         //     ,(int) rightPosition.y
         //     ,(int) rightPosition.z);
     }
+    
+    
     
     Vector3Int GetWorldAnchor(Vector3Int roomOrigin, Vector3Int localAnchor)
     {
