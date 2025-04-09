@@ -1040,8 +1040,8 @@ MonoBehaviour:
   _tilemap: {fileID: 3946311456458283964}
   upAnchor: {fileID: 3790758874904142354}
   downAnchor: {fileID: 2355135974346641194}
-  leftAnchor: {fileID: 8345205077442878000}
-  rightAnchor: {fileID: 5303082946833282607}
+  leftAnchor: {fileID: 5303082946833282607}
+  rightAnchor: {fileID: 8345205077442878000}
 --- !u!1 &6983630539529562218
 GameObject:
   m_ObjectHideFlags: 0

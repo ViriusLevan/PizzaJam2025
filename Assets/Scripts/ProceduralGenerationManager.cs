@@ -287,13 +287,13 @@ public class ProceduralGenerationManager : MonoBehaviour
                 // Horizontal connection
                 if (centerA.x < centerB.x)
                 {
-                    doorA = nodeA.roomData.leftAnchor;
-                    doorB = nodeB.roomData.rightAnchor;
+                    doorA = nodeA.roomData.rightAnchor;
+                    doorB = nodeB.roomData.leftAnchor;
                 }
                 else
                 {
-                    doorA = nodeA.roomData.rightAnchor;
-                    doorB = nodeB.roomData.leftAnchor;
+                    doorA = nodeA.roomData.leftAnchor;
+                    doorB = nodeB.roomData.rightAnchor;
                 }
             }
             else
