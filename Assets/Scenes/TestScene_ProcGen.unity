@@ -710,17 +710,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tilemapParent: {fileID: 131031389}
-  width: 72
-  height: 64
+  width: 90
+  height: 90
   minRoomSize: 18
-  corridorTMap: {fileID: 766318251}
-  corridorTilemap: {fileID: 766318251}
-  corridorTile: {fileID: 11400000, guid: e9914b4f66a0d184485d63469623b4f0, type: 2}
   roomPrefabs:
   - {fileID: 6667298184331410797, guid: 4a677bc6da228804692231d96e8ee183, type: 3}
   - {fileID: 2578222753920590887, guid: 8d124a09a3f82dc428324e451df086df, type: 3}
   - {fileID: 5656808253041208529, guid: f5bc04b4d5e5cae48918039680cbb81b, type: 3}
   - {fileID: 3172956952482834142, guid: fd1b4de43327476438e5e24085266ef0, type: 3}
+  mainTilemap: {fileID: 766318251}
+  corridorTile: {fileID: 11400000, guid: e9914b4f66a0d184485d63469623b4f0, type: 2}
 --- !u!4 &332809078
 Transform:
   m_ObjectHideFlags: 0
@@ -1679,7 +1678,7 @@ GameObject:
   - component: {fileID: 766318248}
   - component: {fileID: 766318247}
   m_Layer: 0
-  m_Name: Corridors
+  m_Name: MainTilemap
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
