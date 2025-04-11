@@ -52,12 +52,19 @@ public class ProceduralGenerationManager : MonoBehaviour
         leaves = new List<RectInt>();
         RectInt root = new RectInt(0, 0, width, height);
         bspNodes = new List<BSPNode>();
+        nodesWithRooms = new List<BSPNode>();
 
         BSPNode rootNode = new BSPNode(root);
         
         
-        SplitSpace(rootNode);
-        CreateRooms(bspNodes[0]);
+        do
+        {
+            rooms.Clear();
+            bspNodes.Clear();
+            SplitSpace(rootNode);
+            CreateRooms(bspNodes[0]);
+        } while (rooms.Count < 10);
+        
         PlaceRoomPrefabs(bspNodes[0]);
         ConnectRooms(bspNodes[0]);
 
@@ -148,6 +155,7 @@ public class ProceduralGenerationManager : MonoBehaviour
     }
     
     [SerializeField] private List<GameObject> roomPrefabs;
+    [SerializeField] private List<BSPNode> nodesWithRooms;
 
     private int _prefabCounter = 0;
     private void PlaceRoomPrefabs(BSPNode currentNode)
@@ -181,6 +189,7 @@ public class ProceduralGenerationManager : MonoBehaviour
                 _prefabCounter += 1;
 
                 CopyTilesToMain(currentNode.tilemap, mainTilemap, new Vector3Int(position.x, position.y, 0));
+                nodesWithRooms.Add(currentNode);
             }
 
         }
@@ -319,14 +328,13 @@ public class ProceduralGenerationManager : MonoBehaviour
     }
 
     [SerializeField] private Tilemap mainTilemap;
-    [SerializeField] private TileBase corridorTile;
-    
+    [SerializeField] private TileBase corridorTile, upWall,downWall,leftWall,rightWall;
+
     private void CreateCorridor(Vector3Int start, Vector3Int end)
     {
         // Randomize direction (horizontal-first or vertical-first)
         bool horizontalFirst = Random.value > 0.5f;
 
-        
         if (horizontalFirst)
         {
             // Horizontal
@@ -334,6 +342,14 @@ public class ProceduralGenerationManager : MonoBehaviour
             {
                 Vector3Int currentPos = new Vector3Int(x, start.y, 0);
                 mainTilemap.SetTile(currentPos, corridorTile);
+                if (!mainTilemap.HasTile(currentPos + new Vector3Int(0,1,0)))
+                {
+                    mainTilemap.SetTile(currentPos + new Vector3Int(0,1,0), upWall);
+                }
+                if (!mainTilemap.HasTile(currentPos + new Vector3Int(0,-1,0)))
+                {
+                    mainTilemap.SetTile(currentPos + new Vector3Int(0,-1,0), downWall);
+                }
             }
 
             // Vertical
@@ -341,6 +357,14 @@ public class ProceduralGenerationManager : MonoBehaviour
             {
                 Vector3Int currentPos = new Vector3Int(end.x, y, 0);
                 mainTilemap.SetTile(currentPos, corridorTile);
+                if (!mainTilemap.HasTile(currentPos + new Vector3Int(1,0,0)))
+                {
+                    mainTilemap.SetTile(currentPos + new Vector3Int(1,0,0), rightWall);
+                }
+                if (!mainTilemap.HasTile(currentPos + new Vector3Int(-1,0,0)))
+                {
+                    mainTilemap.SetTile(currentPos + new Vector3Int(-1,0,0), leftWall);
+                }
             }
         }
         else
@@ -350,6 +374,14 @@ public class ProceduralGenerationManager : MonoBehaviour
             {
                 Vector3Int currentPos = new Vector3Int(start.x, y, 0);
                 mainTilemap.SetTile(currentPos, corridorTile);
+                if (!mainTilemap.HasTile(currentPos + new Vector3Int(1,0,0)))
+                {
+                    mainTilemap.SetTile(currentPos + new Vector3Int(1,0,0), rightWall);
+                }
+                if (!mainTilemap.HasTile(currentPos + new Vector3Int(-1,0,0)))
+                {
+                    mainTilemap.SetTile(currentPos + new Vector3Int(-1,0,0), leftWall);
+                }
             }
 
             // Horizontal
@@ -357,6 +389,14 @@ public class ProceduralGenerationManager : MonoBehaviour
             {
                 Vector3Int currentPos = new Vector3Int(x, end.y, 0);
                 mainTilemap.SetTile(currentPos, corridorTile);
+                if (!mainTilemap.HasTile(currentPos + new Vector3Int(0,1,0)))
+                {
+                    mainTilemap.SetTile(currentPos + new Vector3Int(0,1,0), upWall);
+                }
+                if (!mainTilemap.HasTile(currentPos + new Vector3Int(0,-1,0)))
+                {
+                    mainTilemap.SetTile(currentPos + new Vector3Int(0,-1,0), downWall);
+                }
             }
         }
     }

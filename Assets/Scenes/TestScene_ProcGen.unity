@@ -712,7 +712,7 @@ MonoBehaviour:
   tilemapParent: {fileID: 131031389}
   width: 90
   height: 90
-  minRoomSize: 18
+  minRoomSize: 16
   roomPrefabs:
   - {fileID: 6667298184331410797, guid: 4a677bc6da228804692231d96e8ee183, type: 3}
   - {fileID: 2578222753920590887, guid: 8d124a09a3f82dc428324e451df086df, type: 3}
@@ -720,6 +720,10 @@ MonoBehaviour:
   - {fileID: 3172956952482834142, guid: fd1b4de43327476438e5e24085266ef0, type: 3}
   mainTilemap: {fileID: 766318251}
   corridorTile: {fileID: 11400000, guid: e9914b4f66a0d184485d63469623b4f0, type: 2}
+  upWall: {fileID: 11400000, guid: 0595a03679e6ac143bbc8597aea8d787, type: 2}
+  downWall: {fileID: 11400000, guid: aeb745971cae86e47b852e4d9bb285f6, type: 2}
+  leftWall: {fileID: 11400000, guid: 05ad966ad6aa7914196003beacead5a8, type: 2}
+  rightWall: {fileID: 11400000, guid: 57946888ea0ba3e4e8a9274fe630eb9c, type: 2}
 --- !u!4 &332809078
 Transform:
   m_ObjectHideFlags: 0
