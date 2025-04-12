@@ -1,0 +1,559 @@
+fileFormatVersion: 2
+guid: d4ea98ff692809f48a66d54eb997dd0b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3607479052009202994
+    second: shadow_warp_sprite_sheet_0
+  - first:
+      213: -3392794815485173599
+    second: shadow_warp_sprite_sheet_1
+  - first:
+      213: 214516130493793027
+    second: shadow_warp_sprite_sheet_2
+  - first:
+      213: -7316444203626248004
+    second: shadow_warp_sprite_sheet_3
+  - first:
+      213: 2525360943685107532
+    second: shadow_warp_sprite_sheet_4
+  - first:
+      213: -5574254339081136812
+    second: shadow_warp_sprite_sheet_5
+  - first:
+      213: -1197848134037369252
+    second: shadow_warp_sprite_sheet_6
+  - first:
+      213: 824124390110868157
+    second: shadow_warp_sprite_sheet_7
+  - first:
+      213: -7854627317643530663
+    second: shadow_warp_sprite_sheet_8
+  - first:
+      213: -3454507700839927543
+    second: shadow_warp_sprite_sheet_9
+  - first:
+      213: 6945511913484185976
+    second: shadow_warp_sprite_sheet_10
+  - first:
+      213: -4558772851578512810
+    second: shadow_warp_sprite_sheet_11
+  - first:
+      213: -3711058327118074502
+    second: shadow_warp_sprite_sheet_12
+  - first:
+      213: 1043478596104160623
+    second: shadow_warp_sprite_sheet_13
+  - first:
+      213: 1757446896054477767
+    second: shadow_warp_sprite_sheet_14
+  - first:
+      213: -9120729738884131826
+    second: shadow_warp_sprite_sheet_15
+  - first:
+      213: 7898680233480094680
+    second: shadow_warp_sprite_sheet_16
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: shadow_warp_sprite_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1350
+        width: 540
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 785f80285a3275b4bb1e21c67a91bd54
+      internalID: -1996578146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow_warp_sprite_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 1350
+        width: 540
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f941702237a58dd4baba2b071c0d3246
+      internalID: 1894980110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow_warp_sprite_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 1350
+        width: 540
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09fa553d649255b45a678707bce5b370
+      internalID: 1485931060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow_warp_sprite_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 1350
+        width: 540
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc1569b11ef2dee46826e0aef6c56ef1
+      internalID: -1471129479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow_warp_sprite_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 1350
+        width: 540
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d01a0e9078fdd640b9b6d710fb1d3a1
+      internalID: 429522142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow_warp_sprite_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 900
+        width: 540
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff5b2c848433c4847ba153809d31803b
+      internalID: 559413745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow_warp_sprite_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 900
+        width: 540
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3995b8d67d4554c47bdd8cc41335d53b
+      internalID: 1009602714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow_warp_sprite_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 900
+        width: 540
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0662082bcc8226f4d9a5eccbdd6d2a07
+      internalID: -1344515216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow_warp_sprite_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 900
+        width: 540
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c4ec520d5856aa43b01c9e1c8ad97b9
+      internalID: -1370526157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow_warp_sprite_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 900
+        width: 540
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 492194f0353ad684f88ed0192f2342a8
+      internalID: -46285722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow_warp_sprite_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 450
+        width: 540
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20e0ba229c208e646a402bd6d80f8b12
+      internalID: -137835952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow_warp_sprite_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 450
+        width: 540
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 849792cb69ee5d44b935f4ed0297895a
+      internalID: -1519875271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow_warp_sprite_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 450
+        width: 540
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5369cef91738e94d878046e035bca36
+      internalID: 2066164823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow_warp_sprite_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 450
+        width: 540
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ae819d4050511b4182a67588f75351f
+      internalID: -1977109714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow_warp_sprite_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 450
+        width: 540
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 980f96549e43e2444a03956e0da7dfaf
+      internalID: 1697740408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow_warp_sprite_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 540
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80b2ddd8988c2344b8744883322ff25b
+      internalID: 123269133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow_warp_sprite_sheet_16
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 0
+        width: 540
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da7436982f3e7d343a45edf225bbc3b0
+      internalID: -606478082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 523034a22bb2c3d4b858b34233c46d88
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      shadow_warp_sprite_sheet_0: -1996578146
+      shadow_warp_sprite_sheet_1: 1894980110
+      shadow_warp_sprite_sheet_10: -137835952
+      shadow_warp_sprite_sheet_11: -1519875271
+      shadow_warp_sprite_sheet_12: 2066164823
+      shadow_warp_sprite_sheet_13: -1977109714
+      shadow_warp_sprite_sheet_14: 1697740408
+      shadow_warp_sprite_sheet_15: 123269133
+      shadow_warp_sprite_sheet_16: -606478082
+      shadow_warp_sprite_sheet_2: 1485931060
+      shadow_warp_sprite_sheet_3: -1471129479
+      shadow_warp_sprite_sheet_4: 429522142
+      shadow_warp_sprite_sheet_5: 559413745
+      shadow_warp_sprite_sheet_6: 1009602714
+      shadow_warp_sprite_sheet_7: -1344515216
+      shadow_warp_sprite_sheet_8: -1370526157
+      shadow_warp_sprite_sheet_9: -46285722
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

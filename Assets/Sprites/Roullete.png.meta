@@ -1,0 +1,1417 @@
+fileFormatVersion: 2
+guid: 330c59980a422214f9784767f06c2b6c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 428948922077380104
+    second: Roullete_0
+  - first:
+      213: -1798034001431894652
+    second: Roullete_1
+  - first:
+      213: -7455726537725126484
+    second: Roullete_2
+  - first:
+      213: 1331235339012260842
+    second: Roullete_3
+  - first:
+      213: -4513912092533017832
+    second: Roullete_4
+  - first:
+      213: 8282181402997089680
+    second: Roullete_5
+  - first:
+      213: 6716187450004640337
+    second: Roullete_6
+  - first:
+      213: 3207163733799609900
+    second: Roullete_7
+  - first:
+      213: -8743356360666964504
+    second: Roullete_8
+  - first:
+      213: -6922009982894481799
+    second: Roullete_9
+  - first:
+      213: -7672373448891736873
+    second: Roullete_10
+  - first:
+      213: 4133337545908968739
+    second: Roullete_11
+  - first:
+      213: -8166289021199304549
+    second: Roullete_12
+  - first:
+      213: 7089596128101739580
+    second: Roullete_13
+  - first:
+      213: -8144773345021482865
+    second: Roullete_14
+  - first:
+      213: -1222996167562867825
+    second: Roullete_15
+  - first:
+      213: 3927254769791782141
+    second: Roullete_16
+  - first:
+      213: 1445810589089379569
+    second: Roullete_17
+  - first:
+      213: -7765008265983532326
+    second: Roullete_18
+  - first:
+      213: -8752845447174901367
+    second: Roullete_19
+  - first:
+      213: -6628995320665151652
+    second: Roullete_20
+  - first:
+      213: 4196719290850356324
+    second: Roullete_21
+  - first:
+      213: 572104038981890228
+    second: Roullete_22
+  - first:
+      213: 4756118710680635224
+    second: Roullete_23
+  - first:
+      213: 3691081944503903045
+    second: Roullete_24
+  - first:
+      213: -2434753935394278575
+    second: Roullete_25
+  - first:
+      213: -7979600618195171222
+    second: Roullete_26
+  - first:
+      213: 6214872347841488207
+    second: Roullete_27
+  - first:
+      213: 4009198232176815982
+    second: Roullete_28
+  - first:
+      213: 9139811699577348092
+    second: Roullete_29
+  - first:
+      213: 1411549741415070312
+    second: Roullete_30
+  - first:
+      213: -6599904671349297952
+    second: Roullete_31
+  - first:
+      213: -3121856143164004898
+    second: Roullete_32
+  - first:
+      213: -8086685122538067196
+    second: Roullete_33
+  - first:
+      213: 4855227002724717778
+    second: Roullete_34
+  - first:
+      213: 7663747748436283839
+    second: Roullete_35
+  - first:
+      213: -1122807530428151794
+    second: Roullete_36
+  - first:
+      213: -5060538069642454089
+    second: Roullete_37
+  - first:
+      213: 8685528647086318534
+    second: Roullete_38
+  - first:
+      213: 3514025295393000654
+    second: Roullete_39
+  - first:
+      213: 7787217905382200390
+    second: Roullete_40
+  - first:
+      213: 8379963838071108571
+    second: Roullete_41
+  - first:
+      213: 2873194797759663646
+    second: Roullete_42
+  - first:
+      213: -9109552701267961963
+    second: Roullete_43
+  - first:
+      213: 3345697283027152724
+    second: Roullete_44
+  - first:
+      213: 8536506387923547174
+    second: Roullete_45
+  - first:
+      213: -3600784873444932466
+    second: Roullete_46
+  - first:
+      213: -2433377638472703986
+    second: Roullete_47
+  - first:
+      213: -4599452601315911464
+    second: Roullete_48
+  - first:
+      213: 8803996978552232340
+    second: Roullete_49
+  - first:
+      213: 1983926453587193656
+    second: Roullete_50
+  - first:
+      213: 8075774207197737003
+    second: Roullete_51
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Roullete_0
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 3534
+        width: 478
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80e753f95cee3f500800000000000000
+      internalID: 428948922077380104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roullete_1
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 3534
+        width: 478
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 485e3922a991c07e0800000000000000
+      internalID: -1798034001431894652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roullete_2
+      rect:
+        serializedVersion: 2
+        x: 1511
+        y: 3534
+        width: 478
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca8d0705730f78890800000000000000
+      internalID: -7455726537725126484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roullete_3
+      rect:
+        serializedVersion: 2
+        x: 2215
+        y: 3534
+        width: 478
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae3c546dc7f797210800000000000000
+      internalID: 1331235339012260842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roullete_4
+      rect:
+        serializedVersion: 2
+        x: 2919
+        y: 3534
+        width: 478
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 813ba391edc5b51c0800000000000000
+      internalID: -4513912092533017832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roullete_5
+      rect:
+        serializedVersion: 2
+        x: 3623
+        y: 3534
+        width: 478
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 095ecfaea1830f270800000000000000
+      internalID: 8282181402997089680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roullete_6
+      rect:
+        serializedVersion: 2
+        x: 4327
+        y: 3534
+        width: 478
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1529672e6e0b43d50800000000000000
+      internalID: 6716187450004640337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roullete_7
+      rect:
+        serializedVersion: 2
+        x: 5031
+        y: 3534
+        width: 478
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2624a17c62228c20800000000000000
+      internalID: 3207163733799609900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roullete_8
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 2972
+        width: 477
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ed1bc9d6bb59a680800000000000000
+      internalID: -8743356360666964504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roullete_9
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 2973
+        width: 477
+        height: 263
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97edddd489410ff90800000000000000
+      internalID: -6922009982894481799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roullete_10
+      rect:
+        serializedVersion: 2
+        x: 1510
+        y: 2973
+        width: 477
+        height: 263
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dc5baa8ff0468590800000000000000
+      internalID: -7672373448891736873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roullete_11
+      rect:
+        serializedVersion: 2
+        x: 2214
+        y: 2973
+        width: 478
+        height: 263
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32d50b049909c5930800000000000000
+      internalID: 4133337545908968739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roullete_12
+      rect:
+        serializedVersion: 2
+        x: 2919
+        y: 2973
+        width: 477
+        height: 263
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b983e3ee6638bae80800000000000000
+      internalID: -8166289021199304549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roullete_13
+      rect:
+        serializedVersion: 2
+        x: 3623
+        y: 2973
+        width: 478
+        height: 263
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3c2d70cd1e436260800000000000000
+      internalID: 7089596128101739580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roullete_14
+      rect:
+        serializedVersion: 2
+        x: 4327
+        y: 2973
+        width: 478
+        height: 263
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f88ace9abc3f7fe80800000000000000
+      internalID: -8144773345021482865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roullete_15
+      rect:
+        serializedVersion: 2
+        x: 5032
+        y: 2973
+        width: 477
+        height: 263
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8b40ce177b070fe0800000000000000
+      internalID: -1222996167562867825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roullete_16
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 2411
+        width: 478
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfcc5e7d769608630800000000000000
+      internalID: 3927254769791782141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roullete_17
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 2411
+        width: 478
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f4bb2f021d801410800000000000000
+      internalID: 1445810589089379569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roullete_18
+      rect:
+        serializedVersion: 2
+        x: 1511
+        y: 2411
+        width: 478
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad264147f162d3490800000000000000
+      internalID: -7765008265983532326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roullete_19
+      rect:
+        serializedVersion: 2
+        x: 2216
+        y: 2411
+        width: 478
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 981be3bb075a78680800000000000000
+      internalID: -8752845447174901367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roullete_20
+      rect:
+        serializedVersion: 2
+        x: 2921
+        y: 2410
+        width: 477
+        height: 263
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c57e606b0e31104a0800000000000000
+      internalID: -6628995320665151652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roullete_21
+      rect:
+        serializedVersion: 2
+        x: 3625
+        y: 2410
+        width: 477
+        height: 263
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46c2a29b5fdbd3a30800000000000000
+      internalID: 4196719290850356324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roullete_22
+      rect:
+        serializedVersion: 2
+        x: 4329
+        y: 2410
+        width: 477
+        height: 263
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b0f412a79580f700800000000000000
+      internalID: 572104038981890228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roullete_23
+      rect:
+        serializedVersion: 2
+        x: 5033
+        y: 2409
+        width: 478
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85745b3b4c0210240800000000000000
+      internalID: 4756118710680635224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roullete_24
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 1847
+        width: 478
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 543630be87b593330800000000000000
+      internalID: 3691081944503903045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roullete_25
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 1847
+        width: 478
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 153f6551234063ed0800000000000000
+      internalID: -2434753935394278575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roullete_26
+      rect:
+        serializedVersion: 2
+        x: 1512
+        y: 1847
+        width: 477
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a684df6f383c24190800000000000000
+      internalID: -7979600618195171222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roullete_27
+      rect:
+        serializedVersion: 2
+        x: 2216
+        y: 1846
+        width: 477
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f456d79f879af3650800000000000000
+      internalID: 6214872347841488207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roullete_28
+      rect:
+        serializedVersion: 2
+        x: 2919
+        y: 1846
+        width: 478
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6fe50fec8883a730800000000000000
+      internalID: 4009198232176815982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roullete_29
+      rect:
+        serializedVersion: 2
+        x: 3623
+        y: 1846
+        width: 477
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cff5443e05227de70800000000000000
+      internalID: 9139811699577348092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roullete_30
+      rect:
+        serializedVersion: 2
+        x: 4326
+        y: 1846
+        width: 478
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86af6d7d205d69310800000000000000
+      internalID: 1411549741415070312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roullete_31
+      rect:
+        serializedVersion: 2
+        x: 5030
+        y: 1847
+        width: 477
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0eca8c05bad6864a0800000000000000
+      internalID: -6599904671349297952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roullete_32
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 1284
+        width: 478
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed5a6dac060fca4d0800000000000000
+      internalID: -3121856143164004898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roullete_33
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 1285
+        width: 478
+        height: 263
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40baea4e9b256cf80800000000000000
+      internalID: -8086685122538067196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roullete_34
+      rect:
+        serializedVersion: 2
+        x: 1507
+        y: 1286
+        width: 478
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d49a412c3b316340800000000000000
+      internalID: 4855227002724717778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roullete_35
+      rect:
+        serializedVersion: 2
+        x: 2211
+        y: 1287
+        width: 478
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb19eb119f91b5a60800000000000000
+      internalID: 7663747748436283839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roullete_36
+      rect:
+        serializedVersion: 2
+        x: 2916
+        y: 1288
+        width: 477
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0842bdff7cfa60f0800000000000000
+      internalID: -1122807530428151794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roullete_37
+      rect:
+        serializedVersion: 2
+        x: 3620
+        y: 1288
+        width: 478
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bbde92007b55c9b0800000000000000
+      internalID: -5060538069642454089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roullete_38
+      rect:
+        serializedVersion: 2
+        x: 4325
+        y: 1288
+        width: 477
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c32f006942398870800000000000000
+      internalID: 8685528647086318534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roullete_39
+      rect:
+        serializedVersion: 2
+        x: 5030
+        y: 1289
+        width: 477
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecc03a7536354c030800000000000000
+      internalID: 3514025295393000654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roullete_40
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 727
+        width: 477
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6441ede2d61c11c60800000000000000
+      internalID: 7787217905382200390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roullete_41
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 727
+        width: 477
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd3f8d636bc9b4470800000000000000
+      internalID: 8379963838071108571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roullete_42
+      rect:
+        serializedVersion: 2
+        x: 1511
+        y: 727
+        width: 477
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1e07fa1273afd720800000000000000
+      internalID: 2873194797759663646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roullete_43
+      rect:
+        serializedVersion: 2
+        x: 2216
+        y: 727
+        width: 478
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 597193a251e549180800000000000000
+      internalID: -9109552701267961963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roullete_44
+      rect:
+        serializedVersion: 2
+        x: 2921
+        y: 726
+        width: 478
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45fa2d0e3fd4e6e20800000000000000
+      internalID: 3345697283027152724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roullete_45
+      rect:
+        serializedVersion: 2
+        x: 3626
+        y: 726
+        width: 477
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 624390bd453c77670800000000000000
+      internalID: 8536506387923547174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roullete_46
+      rect:
+        serializedVersion: 2
+        x: 4331
+        y: 725
+        width: 477
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8407b14c31770ec0800000000000000
+      internalID: -3600784873444932466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roullete_47
+      rect:
+        serializedVersion: 2
+        x: 5035
+        y: 724
+        width: 477
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e00a47e2ee7ea3ed0800000000000000
+      internalID: -2433377638472703986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roullete_48
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 160
+        width: 477
+        height: 263
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d891516a367b20c0800000000000000
+      internalID: -4599452601315911464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roullete_49
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 160
+        width: 477
+        height: 263
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 499d73e3b941e2a70800000000000000
+      internalID: 8803996978552232340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roullete_50
+      rect:
+        serializedVersion: 2
+        x: 1512
+        y: 159
+        width: 477
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83fa0962992588b10800000000000000
+      internalID: 1983926453587193656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roullete_51
+      rect:
+        serializedVersion: 2
+        x: 2216
+        y: 159
+        width: 478
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b20784aaad9e21070800000000000000
+      internalID: 8075774207197737003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

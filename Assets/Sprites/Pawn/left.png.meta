@@ -1,0 +1,725 @@
+fileFormatVersion: 2
+guid: 4dd2c678f5f082047932bbbde8263e4a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2208510542369132325
+    second: left_0
+  - first:
+      213: 7466587184217877672
+    second: left_1
+  - first:
+      213: 4719360707221136114
+    second: left_2
+  - first:
+      213: 8296649843441410802
+    second: left_3
+  - first:
+      213: 4823063208592174175
+    second: left_4
+  - first:
+      213: -5550460268369307956
+    second: left_5
+  - first:
+      213: 5219485991851444712
+    second: left_6
+  - first:
+      213: 5304025696711917145
+    second: left_7
+  - first:
+      213: -9144303169341143252
+    second: left_8
+  - first:
+      213: -8872382111719175
+    second: left_9
+  - first:
+      213: -2103406680541178230
+    second: left_10
+  - first:
+      213: 2487655569932700399
+    second: left_11
+  - first:
+      213: -1990702007989491204
+    second: left_12
+  - first:
+      213: 767400610130206352
+    second: left_13
+  - first:
+      213: 7844558226907931411
+    second: left_14
+  - first:
+      213: 2796634607478040719
+    second: left_15
+  - first:
+      213: -1276227385320500879
+    second: left_16
+  - first:
+      213: -5436404768206530618
+    second: left_17
+  - first:
+      213: 655632690017310040
+    second: left_18
+  - first:
+      213: -8767363885894298524
+    second: left_19
+  - first:
+      213: -330514810045877213
+    second: left_20
+  - first:
+      213: 1034653885764683193
+    second: left_21
+  - first:
+      213: -6823754303810152713
+    second: left_22
+  - first:
+      213: -2950522464481871318
+    second: left_23
+  - first:
+      213: 2306755157999679841
+    second: left_24
+  - first:
+      213: -7720525185496463178
+    second: left_25
+  - first:
+      213: 2962824215702144426
+    second: left_26
+  - first:
+      213: 6541523408389420083
+    second: left_27
+  - first:
+      213: 3570283337890034381
+    second: left_28
+  - first:
+      213: 2236950318595651674
+    second: left_29
+  - first:
+      213: -8531410810961981390
+    second: left_30
+  - first:
+      213: 700293397798313818
+    second: left_31
+  - first:
+      213: -9101788545950018082
+    second: left_32
+  - first:
+      213: 3088718112714824209
+    second: left_33
+  - first:
+      213: 3767884670175537111
+    second: left_34
+  - first:
+      213: -6515800333227353925
+    second: left_35
+  - first:
+      213: 567953403765323618
+    second: left_36
+  - first:
+      213: -8889211141710309195
+    second: left_37
+  - first:
+      213: -6709550038816412357
+    second: left_38
+  - first:
+      213: 4120530633169094712
+    second: left_39
+  - first:
+      213: -516174553295092313
+    second: left_40
+  - first:
+      213: -8604099866107634921
+    second: left_41
+  - first:
+      213: 5575144181389302994
+    second: left_42
+  - first:
+      213: -2976302731159042007
+    second: left_43
+  - first:
+      213: -422154454339982730
+    second: left_44
+  - first:
+      213: 8925745823693500622
+    second: left_45
+  - first:
+      213: 8875594885711813365
+    second: left_46
+  - first:
+      213: -2576930139099407040
+    second: left_47
+  - first:
+      213: 5242678827336105492
+    second: left_48
+  - first:
+      213: 6521192027613020359
+    second: left_49
+  - first:
+      213: 1372267131857635886
+    second: left_50
+  - first:
+      213: -8276183088280716999
+    second: left_51
+  - first:
+      213: 7961925808089057157
+    second: left_52
+  - first:
+      213: 756361206162904752
+    second: left_53
+  - first:
+      213: -6493544704687613752
+    second: left_54
+  - first:
+      213: 6310751659848177621
+    second: left_55
+  - first:
+      213: 2274602547705607197
+    second: left_56
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: left_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1533
+        width: 583
+        height: 511
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08515cfd5d1a3324faa0be04c1dc77ec
+      internalID: 1333141370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: left_1
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 1533
+        width: 583
+        height: 511
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60a8a8115be808e4eb5ee719451de4f2
+      internalID: 13819481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: left_2
+      rect:
+        serializedVersion: 2
+        x: 1166
+        y: 1533
+        width: 583
+        height: 511
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9605e15533ea08b40bfce2cc38d33c96
+      internalID: 1111194629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: left_3
+      rect:
+        serializedVersion: 2
+        x: 1749
+        y: 1533
+        width: 583
+        height: 511
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcca6d653f4be164eb94b03262ca03da
+      internalID: -1685301716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: left_4
+      rect:
+        serializedVersion: 2
+        x: 2332
+        y: 1533
+        width: 583
+        height: 511
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0d7a62e99c49df42a0a9ad7fcb73f16
+      internalID: 2068057407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: left_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1022
+        width: 583
+        height: 511
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3edcd17128c396e4fa6ee30b6b6777fc
+      internalID: -1607630688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: left_6
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 1022
+        width: 583
+        height: 511
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aec285dc9d6aeb45b0ccd82906240f5
+      internalID: 1638880368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: left_7
+      rect:
+        serializedVersion: 2
+        x: 1166
+        y: 1022
+        width: 583
+        height: 511
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 942da2cc9d8ff314d84775c760c19a68
+      internalID: 578204475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: left_8
+      rect:
+        serializedVersion: 2
+        x: 1749
+        y: 1022
+        width: 583
+        height: 511
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57556c7abf6ddda488e72434970d21a6
+      internalID: 1696030331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: left_9
+      rect:
+        serializedVersion: 2
+        x: 2332
+        y: 1022
+        width: 583
+        height: 511
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecdbc5a605c88e74092a6a39006bb76f
+      internalID: -2113873562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: left_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 511
+        width: 583
+        height: 511
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52986d252a4c190498e3f178330b66e8
+      internalID: 1585510181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: left_11
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 511
+        width: 583
+        height: 511
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32d81c72f8bf92149b93886979bd6e49
+      internalID: -437506998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: left_12
+      rect:
+        serializedVersion: 2
+        x: 1166
+        y: 511
+        width: 583
+        height: 511
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3150417d8094c1b4f85e1a5866364e00
+      internalID: -1269817046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: left_13
+      rect:
+        serializedVersion: 2
+        x: 1749
+        y: 511
+        width: 583
+        height: 511
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 606b94d4de0be4b4b8baaea2628fb3c0
+      internalID: 8243706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: left_14
+      rect:
+        serializedVersion: 2
+        x: 2332
+        y: 511
+        width: 583
+        height: 511
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df36c28b7d19f9346a5cb7278a0a5b67
+      internalID: 392100600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: left_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 583
+        height: 511
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c12470839c10ee14b97f9d50c2cb2272
+      internalID: -878867170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: left_16
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 0
+        width: 583
+        height: 511
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bafb995c39b704c41be1fa8a38498b36
+      internalID: -248813030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: left_17
+      rect:
+        serializedVersion: 2
+        x: 1166
+        y: 0
+        width: 583
+        height: 511
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96e97c42e2fd83f44b8f7579b96b9b6f
+      internalID: -1556076268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: left_18
+      rect:
+        serializedVersion: 2
+        x: 1749
+        y: 0
+        width: 583
+        height: 511
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e50f3425cafcb174c9158377c679abf5
+      internalID: -451801206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 7db23ca4c3ebba04f94c83db21cce6ac
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      left_0: 1333141370
+      left_1: 13819481
+      left_10: 1585510181
+      left_11: -437506998
+      left_12: -1269817046
+      left_13: 8243706
+      left_14: 392100600
+      left_15: -878867170
+      left_16: -248813030
+      left_17: -1556076268
+      left_18: -451801206
+      left_2: 1111194629
+      left_3: -1685301716
+      left_4: 2068057407
+      left_5: -1607630688
+      left_6: 1638880368
+      left_7: 578204475
+      left_8: 1696030331
+      left_9: -2113873562
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
